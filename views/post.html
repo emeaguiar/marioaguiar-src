@@ -1,0 +1,16 @@
+    <hr class="separator">
+
+    <section id="post">
+      <div class="container">
+        <div id="loader" class="text-center" ng-show="single.loading">
+          <img src="/assets/images/loader.gif" alt="">
+        </div>
+        <div class="post" id="post-{{ single.post.id }}" ng-hide="single.loading">
+          <div class="metadata text-center">
+            <h1>{{ single.post.title }}</h1>
+            <time>{{ single.post.date | wpDate : 'MMMM dd, yyyy' }}</time>
+          </div>
+          <div ng-bind-html="single.post.content"></div>
+        </div>
+      </div>
+    </section>

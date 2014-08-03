@@ -1,0 +1,1534 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"print",
+				"printf"
+			],
+			[
+				"padding",
+				"padding"
+			],
+			[
+				"fo",
+				"font-weight"
+			],
+			[
+				"sticky",
+				"sticky_menu"
+			],
+			[
+				"str_re",
+				"str_replace"
+			],
+			[
+				"j",
+				"javascript"
+			],
+			[
+				"heade",
+				"header_scripts"
+			],
+			[
+				"mario",
+				"marioaguiar"
+			],
+			[
+				"backgr",
+				"background-position"
+			],
+			[
+				"sta",
+				"state"
+			],
+			[
+				"val",
+				"values"
+			],
+			[
+				"TG",
+				"TG_SEARCH_ALL"
+			],
+			[
+				"cou",
+				"country"
+			],
+			[
+				"va",
+				"values"
+			],
+			[
+				"geui-",
+				"geui-button"
+			],
+			[
+				"drupal",
+				"drupal_map_assoc"
+			],
+			[
+				"brazi",
+				"brazil_other_form"
+			],
+			[
+				"comment",
+				"comment-list"
+			],
+			[
+				"paddin",
+				"padding-top"
+			],
+			[
+				"border",
+				"border-bottom"
+			],
+			[
+				"get",
+				"getComputedStyle"
+			],
+			[
+				"wp_enque",
+				"wp_enqueue_script"
+			],
+			[
+				"line",
+				"line-numbers"
+			],
+			[
+				"text",
+				"text-align"
+			],
+			[
+				"margin",
+				"margin"
+			],
+			[
+				"accord",
+				"accordion_group"
+			],
+			[
+				"acco",
+				"accordion_group"
+			],
+			[
+				"rg",
+				"rgba()"
+			],
+			[
+				"border-r",
+				"border-right"
+			],
+			[
+				"paddi",
+				"padding-bottom"
+			],
+			[
+				"bord",
+				"border-radius"
+			],
+			[
+				"slider",
+				"slider-container"
+			],
+			[
+				"inlin",
+				"inline-block"
+			],
+			[
+				"font",
+				"font-heading"
+			],
+			[
+				"text-",
+				"text-indent"
+			],
+			[
+				"font-",
+				"font-heading"
+			],
+			[
+				"borde",
+				"border"
+			],
+			[
+				"fon",
+				"font-p"
+			],
+			[
+				"mar",
+				"margin-bottom"
+			],
+			[
+				"details",
+				"detailsBottom"
+			],
+			[
+				"margi",
+				"margin"
+			],
+			[
+				"list-sty",
+				"list-style-type"
+			],
+			[
+				"padd",
+				"padding"
+			],
+			[
+				"wid",
+				"width"
+			],
+			[
+				"beige",
+				"beige2"
+			],
+			[
+				"border-",
+				"border-bottom"
+			],
+			[
+				"fea",
+				"features"
+			],
+			[
+				"features",
+				"featuresArray"
+			],
+			[
+				"china_marketo",
+				"china_marketo_form_submit"
+			],
+			[
+				"var",
+				"var_dump"
+			],
+			[
+				"form_s",
+				"form_set_error"
+			],
+			[
+				"ge_fee",
+				"ge_feeds_update_feed"
+			],
+			[
+				"outer",
+				"outerHeight"
+			],
+			[
+				"custom",
+				"custom_block"
+			],
+			[
+				"feed",
+				"feed_url"
+			],
+			[
+				"fetch",
+				"fetchField"
+			],
+			[
+				"block",
+				"block_custom"
+			],
+			[
+				"str_r",
+				"str_replace"
+			],
+			[
+				"con",
+				"content"
+			],
+			[
+				"strip",
+				"strip_tags"
+			],
+			[
+				"qa",
+				"qa_items"
+			],
+			[
+				"bio",
+				"bio_item"
+			],
+			[
+				"firs",
+				"first_name"
+			],
+			[
+				"last",
+				"last_name"
+			],
+			[
+				"curren",
+				"currentSize"
+			],
+			[
+				"curr",
+				"currentSize"
+			],
+			[
+				"renderI",
+				"renderItem"
+			],
+			[
+				"field_ge",
+				"field_ge_programs_apply"
+			],
+			[
+				"resiz",
+				"resizeListener"
+			],
+			[
+				"resi",
+				"resizeListener"
+			],
+			[
+				"thro",
+				"throttle"
+			],
+			[
+				"responsive",
+				"responsiveImages"
+			],
+			[
+				"win",
+				"windowHeight"
+			],
+			[
+				"winN",
+				"winNewWidth"
+			],
+			[
+				"image",
+				"image_small"
+			],
+			[
+				"token",
+				"tokenSmall"
+			],
+			[
+				"card",
+				"card-grid-small"
+			],
+			[
+				"fgetc",
+				"fgetcsv"
+			],
+			[
+				"file",
+				"file_handle"
+			],
+			[
+				"cont",
+				"context"
+			],
+			[
+				"methos",
+				"method_exists"
+			],
+			[
+				"form",
+				"form_id"
+			],
+			[
+				"class",
+				"class_exists"
+			],
+			[
+				"rules_action_ma",
+				"rules_action_mail_to_users_of_role"
+			],
+			[
+				"function",
+				"function_exists"
+			],
+			[
+				"method",
+				"method_exists"
+			],
+			[
+				"getM",
+				"getMinutes"
+			],
+			[
+				"jobTi",
+				"jobTitles"
+			],
+			[
+				"getwee",
+				"getweets"
+			],
+			[
+				"jobTit",
+				"jobTitle"
+			],
+			[
+				"jobT",
+				"jobTitles"
+			],
+			[
+				"getwe",
+				"getweets"
+			],
+			[
+				"chapter",
+				"chapterLoaded"
+			],
+			[
+				"set",
+				"setTimeout"
+			],
+			[
+				"re",
+				"ready"
+			],
+			[
+				"tweet",
+				"tweetDate"
+			],
+			[
+				"tw",
+				"tweet"
+			],
+			[
+				"expert",
+				"expertTitle"
+			],
+			[
+				"ex",
+				"expertName"
+			],
+			[
+				"GET",
+				"GETweetsSettings"
+			],
+			[
+				"expe",
+				"expertImage"
+			],
+			[
+				"twee",
+				"tweetsLimit"
+			],
+			[
+				"GE",
+				"GETweets"
+			],
+			[
+				"drupal_a",
+				"drupal_add_js"
+			],
+			[
+				"Inquiry",
+				"InquiryType"
+			],
+			[
+				"marketo",
+				"marketo_form"
+			],
+			[
+				"required",
+				"requiredNum"
+			],
+			[
+				"req",
+				"requiredFields"
+			],
+			[
+				"pull",
+				"pull-right"
+			],
+			[
+				"defaul",
+				"default_value"
+			],
+			[
+				"geui",
+				"geui-select"
+			],
+			[
+				"Inqu",
+				"InquiryType"
+			],
+			[
+				"tab",
+				"tabindex"
+			],
+			[
+				"max",
+				"maxlength"
+			],
+			[
+				"pre",
+				"prefix"
+			],
+			[
+				"Last",
+				"LastName"
+			],
+			[
+				"field_u",
+				"field_headline_url"
+			],
+			[
+				"hide",
+				"hidePanelsTitle"
+			],
+			[
+				"pane",
+				"panelTitle"
+			],
+			[
+				"group",
+				"group_url"
+			],
+			[
+				"gro",
+				"group_url"
+			],
+			[
+				"order",
+				"order_view"
+			],
+			[
+				"ge_feeds",
+				"ge_feeds_create_node"
+			],
+			[
+				"field",
+				"field_instance"
+			],
+			[
+				"field_cre",
+				"field_create_instance"
+			],
+			[
+				"field_",
+				"field_info_field"
+			],
+			[
+				"ge_fe",
+				"ge_feeds"
+			],
+			[
+				"ge_",
+				"ge_feeds"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "front-page.php",
+			"settings":
+			{
+				"buffer_size": 4894,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "functions.php",
+			"settings":
+			{
+				"buffer_size": 3623,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "css/main.css",
+			"settings":
+			{
+				"buffer_size": 17525,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "header.php",
+			"settings":
+			{
+				"buffer_size": 1865,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "index.php",
+			"settings":
+			{
+				"buffer_size": 547,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "js/base.js",
+			"settings":
+			{
+				"buffer_size": 1292,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "footer.php",
+			"settings":
+			{
+				"buffer_size": 505,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/C/Users/501981285/Documents/Projects/countries/sites/all/modules/custom/ge_forms/ge_forms.module",
+			"settings":
+			{
+				"buffer_size": 196180,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/C/Users/501981285/Documents/GE/GE.com Countries/br/themes/ge2013_br/template.php",
+			"settings":
+			{
+				"buffer_size": 12137,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/C/Users/501981285/Documents/Projects/countries/sites/countrysites.geready.com.in/themes/ge2013_in/ge2013_in.info",
+			"settings":
+			{
+				"buffer_size": 746,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"contents": "<?php\n\n",
+			"file": "/C/Users/501981285/Documents/Projects/countries/sites/countrysites.geready.com.in/themes/ge2013_in/template.php",
+			"file_size": 5,
+			"file_write_time": 130235719545925841,
+			"settings":
+			{
+				"buffer_size": 7,
+				"line_ending": "Windows",
+				"name": "<?php"
+			}
+		},
+		{
+			"contents": "<?php\n/**\n * Template Name: Blog\n * The blog index template file\n * @package WordPress\n * @subpackage Mario_Aguiar\n * @since Mario Aguiar 2.0\n */\n\nget_header(); ?>\n		\n	<div class=\"container\">\n	<?php if ( have_posts() ) : ?>\n\n		<?php /* Start the Loop */ ?>\n		<?php while ( have_posts() ) : the_post() ?>\n\n			<?php get_template_part( 'blog', get_post_format() ); ?>\n\n		<?php endwhile; ?>\n\n		<?php marioaguiar_paging_nav(); ?>\n\n	<?php else : ?>\n\n		<?php get_template_part( 'blog', 'none' ); ?>\n\n	<?php endif; ?>\n	</div>\n	<div class=\"detailsBottom\"></div>\n\n<?php get_footer(); ?>",
+			"file": "template-blog.php",
+			"file_size": 612,
+			"file_write_time": 130234876812418710,
+			"settings":
+			{
+				"buffer_size": 576,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "content.php",
+			"settings":
+			{
+				"buffer_size": 438,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "single.php",
+			"settings":
+			{
+				"buffer_size": 566,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "blog.php",
+			"settings":
+			{
+				"buffer_size": 943,
+				"line_ending": "Windows"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 242.0,
+		"selected_items":
+		[
+			[
+				"markdown",
+				"Markdown Preview: Python Markdown: Copy to Clipboard"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"in",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: ",
+				"Package Control: Remove Package"
+			],
+			[
+				"packa",
+				"Package Control: Install Package"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"pack",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 576.0
+	},
+	"console":
+	{
+		"height": 125.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": false,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/C/Users/501981285/Documents/GE/GE.com Countries/br/themes/ge2013_br/ge2013_br.info",
+		"/C/Users/501981285/Documents/Projects/marioaguiar/wp-content/themes/twentythirteen/header.php",
+		"/C/Users/501981285/Documents/Projects/basesite/sites/all/themes/ge_2012/templates/html.tpl.php",
+		"/C/Users/501981285/Documents/GE/GE.com Countries/sites/all/themes/ge_2012/template.php",
+		"/C/Users/501981285/Documents/GE/GE.com/sites/all/themes/ge_2012/template.php",
+		"/C/Users/501981285/Documents/Projects/basesite/sites/all/themes/ge_2012/templates/page.tpl.php",
+		"/C/Users/501981285/Documents/Projects/basesite/sites/all/themes/ge_2012/templates/page--node--history.tpl.php",
+		"/C/Users/501981285/Documents/Projects/basesite/sites/all/themes/ge_2012/templates/page--node--ir_events.tpl.php",
+		"/C/Users/501981285/Documents/Projects/basesite/sites/all/themes/ge_2012/templates/region.tpl.php",
+		"/C/Users/501981285/Documents/Projects/basesite/sites/all/themes/ge_2012/templates/page--node--ge_careers_diversity.tpl.php",
+		"/C/Users/501981285/Documents/Projects/basesite/sites/all/themes/ge_2012/templates/page--node--ge_careers_profile.tpl.php",
+		"/C/Users/501981285/Documents/Projects/basesite/sites/all/themes/ge_2012/templates/page--node--ge_careers_profiles.tpl.php",
+		"/C/Users/501981285/Documents/Projects/basesite/sites/all/themes/ge_2012/templates/page--node--ge_careers_program_details.tpl.php",
+		"/C/Users/501981285/Documents/Projects/basesite/sites/all/themes/ge_2012/templates/page--node--ge_company_flipflop.tpl.php",
+		"/C/Users/501981285/Documents/Projects/basesite/sites/all/themes/ge_2012/templates/page--node--ge_company_landing.tpl.php",
+		"/C/Users/501981285/Documents/Projects/basesite/sites/all/themes/ge_2012/templates/page--node--ge_company_the_top_five.tpl.php",
+		"/C/Users/501981285/Documents/Projects/basesite/sites/all/themes/ge_2012/templates/page--node--ge_contact_us.tpl.php",
+		"/C/Users/501981285/Documents/Projects/basesite/sites/all/themes/ge_2012/templates/page--node--ge_directory.tpl.php",
+		"/C/Users/501981285/Documents/Projects/basesite/sites/all/themes/ge_2012/templates/page--node--ge_executive_profiles.tpl.php",
+		"/C/Users/501981285/Documents/Projects/basesite/sites/all/themes/ge_2012/templates/page--node--ge_generic_page.tpl.php",
+		"/C/Users/501981285/Documents/Projects/basesite/sites/all/themes/ge_2012/templates/page--node--ge_ir_contact.tpl.php",
+		"/C/Users/501981285/Documents/Projects/basesite/sites/all/themes/ge_2012/templates/page--node--ge_ir.tpl.php",
+		"/C/Users/501981285/Documents/Projects/basesite/sites/all/themes/ge_2012/templates/page--node--ge_ir_events.tpl.php",
+		"/C/Users/501981285/Documents/Projects/basesite/sites/all/themes/ge_2012/templates/page--node--ge_meet_our_people.tpl.php",
+		"/C/Users/501981285/Documents/Projects/basesite/sites/all/themes/ge_2012/templates/page--node--ge_page_left_nav.tpl.php",
+		"/C/Users/501981285/Documents/Projects/basesite/sites/all/themes/ge_2012/templates/page--node--ge_stock_information.tpl.php",
+		"/C/Users/501981285/Documents/Projects/basesite/sites/all/themes/ge_2012/templates/page--node--ge_careers_home.tpl.php",
+		"/C/Users/501981285/Documents/Projects/basesite/sites/all/themes/ge_2012/templates/page--front.tpl.php",
+		"/C/Users/501981285/Documents/Projects/basesite/sites/all/themes/ge_2012/templates/page--node--ge_careers_data_protection.tpl.php",
+		"/C/Users/501981285/Documents/Projects/basesite/sites/all/themes/ge_2012/template.php",
+		"/C/Users/501981285/Documents/Projects/basesite/sites/all/themes/ge_2012/assets/js/bin/ge.extras.js",
+		"/C/Users/501981285/Documents/Projects/basesite/sites/all/themes/ge_2012/templates/common/header.inc.php",
+		"/C/Users/501981285/Documents/Projects/basesite/sites/all/themes/ge_2012/ge_2012.info",
+		"/C/Users/501981285/Documents/Projects/basesite/sites/all/themes/ge_2012/templates/page--investor_relations__events.tpl.php",
+		"/C/Users/501981285/Documents/Projects/basesite/sites/all/themes/ge_2012/templates/page--investor_relations__events_archive.tpl.php",
+		"/C/Users/501981285/Documents/GE/GE.com Countries/cn/themes/ge2013_cn/templates/page.tpl.php",
+		"/C/Users/501981285/Documents/Projects/basesite/sites/all/themes/ge_2012/templates/node.tpl.php",
+		"/C/Users/501981285/Documents/Projects/GE.com/sites/all/modules/custom/ge_admin_forms/ge_admin_forms.module",
+		"/C/Users/501981285/Documents/Projects/GE.com/sites/all/modules/custom/ge_admin_forms/ge_admin_forms.info",
+		"/C/Users/501981285/Documents/Projects/GE.com/sites/all/modules/custom/ge_sticky_menu/ge_sticky_menu.module",
+		"/C/Users/501981285/Documents/Projects/GE.com/sites/all/modules/custom/ge_sticky_menu/ge_sticky_menu.info",
+		"/C/Users/501981285/Documents/Projects/GE.com/sites/all/themes/ge_2012/theme/theme.inc",
+		"/C/Users/501981285/Documents/GE/GE.com Countries/br/themes/ge2013_br/templates/page--node--history.tpl.php",
+		"/C/Users/501981285/Documents/Projects/GE.com/sites/all/themes/ge_2012/templates/page--node--ge_wcsj.tpl.php",
+		"/C/Users/501981285/Documents/Projects/GE.com/sites/all/themes/ge_2012/templates/page--node--history.tpl.php",
+		"/C/Users/501981285/Documents/Projects/GE.com/sites/all/modules/custom/ge_valid_url/ge_valid_url.module",
+		"/C/Users/501981285/Documents/Projects/GE.com/sites/all/modules/custom/ge_feeds/ge_feeds.info",
+		"/C/Users/501981285/Documents/GE/GE.com/sites/all/themes/ge_2012/templates/views/views-view-fields--ge-hero-carousel.tpl.php",
+		"/C/Users/501981285/Documents/GE/GE.com/sites/all/themes/ge_2012/templates/common/header.inc.php",
+		"/C/Users/501981285/Documents/Projects/marioaguiar/wp-content/themes/marioaguiar/css/main.css",
+		"/C/Users/501981285/Documents/Projects/marioaguiar/wp-content/themes/marioaguiar/index.php",
+		"/C/Users/501981285/Documents/GE/GE.com/sites/all/themes/ge_2012/theme/theme.inc",
+		"/C/Users/501981285/Documents/Projects/GE.com/sites/all/themes/ge_2012/template.php",
+		"/C/Users/501981285/Documents/Projects/marioaguiar/wp-content/themes/marioaguiar/home.php",
+		"/C/Users/501981285/Documents/GE/GE.com Countries/sites/all/themes/ge_2012/ge_2012.info",
+		"/C/Users/501981285/Documents/Projects/countries/sites/countrysites.geready.com.cn/themes/ge2013_cn/templates/page--front.tpl.php",
+		"/C/Users/501981285/Documents/GE/GE.com Countries/br/themes/ge2013_br/templates/html.tpl.php",
+		"/C/Users/501981285/Documents/GE/GE.com Countries/sites/all/themes/ge_2012/templates/html.tpl.php",
+		"/C/Users/501981285/Documents/GE/GE.com Countries/br/themes/ge2013_br/template.php",
+		"/C/Users/501981285/Documents/Projects/countries/sites/countrysites.geready.com.br/themes/ge2013_br/template.php",
+		"/C/Users/501981285/Documents/Projects/countries/sites/countrysites.geready.com.cn/themes/ge2013_cn/template.php",
+		"/C/Users/501981285/Documents/Projects/countries/sites/all/modules/custom/ge_forms/ge_forms.module",
+		"/C/eclipse/eclipse.ini",
+		"/C/Users/501981285/Documents/GE/GE.com Countries/sites/all/modules/custom/ge_forms/ge_forms.module",
+		"/C/Users/501981285/Documents/Projects/countries/sites/all/themes/ge_2012/template.php",
+		"/C/Users/501981285/Documents/Projects/GE.com/sites/default/settings.php",
+		"/C/Users/501981285/Documents/Projects/countries/sites/all/themes/ge_2012/templates/user-login.tpl.php",
+		"/C/Users/501981285/Documents/Projects/countries/sites/all/themes/ge_2012/templates/region.tpl.php",
+		"/C/Users/501981285/Documents/Projects/countries/sites/all/themes/ge_2012/templates/page--node--ir_events.tpl.php",
+		"/C/Users/501981285/Documents/Projects/countries/sites/all/themes/ge_2012/templates/page--node--history.tpl.php",
+		"/C/Users/501981285/Documents/Projects/countries/sites/all/themes/ge_2012/templates/page--node--ge_stock_information.tpl.php",
+		"/C/Users/501981285/Documents/Projects/countries/sites/all/themes/ge_2012/templates/page--node--ge_page_left_nav.tpl.php",
+		"/C/Users/501981285/Documents/Projects/countries/sites/all/themes/ge_2012/templates/page--node--ge_meet_our_people.tpl.php",
+		"/C/Users/501981285/Documents/Projects/countries/sites/all/themes/ge_2012/templates/page--node--ge_ir_events.tpl.php",
+		"/C/Users/501981285/Documents/Projects/countries/sites/all/themes/ge_2012/templates/page--node--ge_ir_contact.tpl.php",
+		"/C/Users/501981285/Documents/Projects/countries/sites/all/themes/ge_2012/templates/page--node--ge_ir.tpl.php",
+		"/C/Users/501981285/Documents/Projects/countries/sites/all/themes/ge_2012/templates/page--node--ge_generic_page.tpl.php",
+		"/C/Users/501981285/Documents/Projects/countries/sites/all/themes/ge_2012/templates/page--node--ge_executive_profiles.tpl.php",
+		"/C/Users/501981285/Documents/Projects/countries/sites/all/themes/ge_2012/templates/page--node--ge_directory.tpl.php",
+		"/C/Users/501981285/Documents/Projects/countries/sites/all/themes/ge_2012/templates/page--node--ge_contact_us.tpl.php",
+		"/C/Users/501981285/Documents/Projects/countries/sites/all/themes/ge_2012/templates/page--node--ge_company_landing.tpl.php",
+		"/C/Users/501981285/Documents/Projects/countries/sites/all/themes/ge_2012/templates/page--node--ge_careers_program_details.tpl.php",
+		"/C/Users/501981285/Documents/Projects/countries/sites/all/themes/ge_2012/templates/page--node--ge_careers_profile.tpl.php",
+		"/C/Users/501981285/Documents/Projects/countries/sites/all/themes/ge_2012/templates/page--node--ge_careers_home.tpl.php",
+		"/C/Users/501981285/Documents/Projects/countries/sites/all/themes/ge_2012/templates/page--node--ge_careers_diversity.tpl.php",
+		"/C/Users/501981285/Documents/Projects/countries/sites/all/themes/ge_2012/templates/page--node--ge_careers_data_protection.tpl.php",
+		"/C/Users/501981285/Documents/Projects/countries/sites/all/themes/ge_2012/templates/page--investor_relations__events_archive.tpl.php",
+		"/C/Users/501981285/Documents/Projects/countries/sites/all/themes/ge_2012/templates/page--investor_relations__events.tpl.php",
+		"/C/Users/501981285/Documents/Projects/countries/sites/all/themes/ge_2012/templates/page--front.tpl.php",
+		"/C/Users/501981285/Documents/Projects/countries/sites/all/themes/ge_2012/templates/page.tpl.php",
+		"/C/Users/501981285/Documents/Projects/countries/sites/countrysites.geready.com.br/themes/ge2013_br/templates/page--node--ge_ir_contact.tpl.php",
+		"/C/Users/501981285/Documents/Projects/countries/sites/all/themes/ge_2012/templates/node.tpl.php",
+		"/C/Users/501981285/Documents/Projects/countries/sites/all/themes/ge_2012/templates/html.tpl.php",
+		"/C/Users/501981285/Documents/Projects/countries/sites/all/themes/ge_2012/templates/field.tpl.php",
+		"/C/Users/501981285/Documents/Projects/countries/sites/countrysites.geready.com.cn/themes/ge2013_cn/templates/html.tpl.php",
+		"/C/Users/501981285/Documents/GE/GE.com Countries/cn/themes/ge2013_cn/ge2013_cn.info",
+		"/C/Users/501981285/Documents/Projects/countries/sites/all/themes/ge_2012/ge_2012.info",
+		"/C/Users/501981285/Documents/GE/GE.com Countries/br/modules/custom/kenexa/kenexa.js",
+		"/C/Users/501981285/Documents/GE/GE.com/sites/all/modules/custom/kenexa/kenexa.js",
+		"/C/Users/501981285/Documents/GE/GE.com/sites/all/themes/ge_2012/templates/views/views-view-list--ge-hero-carousel.tpl.php",
+		"/C/Users/501981285/Documents/GE/GE.com/sites/all/themes/ge_2012/templates/page--front.tpl.php",
+		"/C/Users/501981285/Documents/Projects/countries/sites/countrysites.geready.com.br/themes/ge2013_br/templates/page--front.tpl.php",
+		"/C/Users/501981285/Documents/Projects/countries/sites/countrysites.geready.com.br/themes/ge2013_br/templates/page--node--history.tpl.php",
+		"/C/Users/501981285/Documents/Projects/countries/sites/sites.php",
+		"/C/Users/501981285/Documents/GE/GE.com/sites/all/themes/ge_2012/assets/js/bin/s_code.js",
+		"/C/Users/501981285/Documents/GE/GE.com Countries/sites/all/themes/ge_2012/assets/js/bin/ge.extras.js",
+		"/C/Users/501981285/Documents/Projects/countries/sites/countrysites.geready.com.br/themes/ge2013_br/ge2013_br.info",
+		"/C/Users/501981285/Documents/Projects/countries/sites/countrysites.geready.com.cn/themes/ge2013_cn/ge2013_cn.info",
+		"/C/Users/501981285/Documents/GE/GE.com Countries/sites/all/themes/ge_2012/assets/js/bin/ge.base.js",
+		"/C/Users/501981285/Documents/GE/GE.com Countries/sites/all/themes/ge_2012/assets/js/bin/ge.min.js",
+		"/C/Users/501981285/Documents/GE/GE.com Countries/sites/all/themes/ge_2012/assets/js/bin/ge.base.min.js",
+		"/C/Users/501981285/Documents/GE/GE.com/sites/all/themes/ge_2012/ge_2012.info",
+		"/C/Users/501981285/Documents/Projects/countries/sites/countrysites.geready.com.br/themes/ge2013_br/templates/page--node--ge_ir.tpl.php",
+		"/C/Users/501981285/Documents/Projects/countries/sites/countrysites.geready.com.br/themes/ge2013_br/templates/page.tpl.php",
+		"/C/Users/501981285/Documents/Projects/countries/sites/countrysites.geready.com.br/themes/ge2013_br/templates/page--node--ge_careers_diversity.tpl.php",
+		"/C/Users/501981285/Documents/Projects/countries/sites/countrysites.geready.com.br/themes/ge2013_br/templates/page--node--ge_careers_home.tpl.php",
+		"/C/Users/501981285/Documents/Projects/countries/sites/countrysites.geready.com.br/themes/ge2013_br/templates/page--node--ge_company_landing.tpl.php",
+		"/C/Users/501981285/Documents/Projects/countries/sites/countrysites.geready.com.br/themes/ge2013_br/templates/page--node--ge_executive_profiles.tpl.php",
+		"/C/Users/501981285/Documents/Projects/countries/sites/countrysites.geready.com.br/themes/ge2013_br/templates/page--node--ge_generic_page.tpl.php",
+		"/C/Users/501981285/Documents/Projects/countries/sites/countrysites.geready.com.br/themes/ge2013_br/templates/html.tpl.php",
+		"/C/Users/501981285/Documents/GE/GE.com Countries/all/modules/custom/ge_forms/ge_forms.module",
+		"/C/Users/501981285/Documents/GE/GE.com Countries/cn/modules/ge_forms/ge_forms.module",
+		"/C/Users/501981285/Documents/GE/GE.com/sites/all/themes/ge_2012/templates/views/views-view--ge-hero-carousel.tpl.php",
+		"/C/Users/501981285/Documents/GE/GE.com/sites/all/themes/ge_2012/templates/node--hero_carousel.tpl.php",
+		"/C/Users/501981285/Documents/GE/GE.com/sites/all/modules/custom/ge_search/ge_search.module",
+		"/C/Users/501981285/Documents/GE/GE.com Countries/sites/all/themes/ge_2012/theme/theme.inc",
+		"/C/Users/501981285/Documents/Projects/countries/sites/example.sites.php",
+		"/C/Users/501981285/Documents/Projects/countries/sites/countrysites.geready.com.br/settings.php"
+	],
+	"find":
+	{
+		"height": 34.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+			"C:\\Users\\501981285\\Documents\\GE\\GE.com Countries",
+			"C:\\Users\\501981285\\Documents\\Projects\\countries\\sites\\countrysites.geready.com.cn",
+			"C:\\Users\\501981285\\Documents\\Projects\\countries\\sites\\all\\themes",
+			"C:\\Users\\501981285\\Documents\\Projects\\countries",
+			"C:\\Users\\501981285\\Documents\\GE\\GE.com Countries\\",
+			"C:\\Users\\501981285\\Documents\\GE\\GE.com Countries\\br",
+			"C:\\Users\\501981285\\Documents\\Projects\\GE.com\\sites\\all\\themes\\ge_2012",
+			"C:\\Users\\501981285\\Documents\\Projects\\marioaguiar\\wp-content\\themes\\twentythirteen",
+			"C:\\Users\\501981285\\Documents\\GE\\GE.com Countries\\cn\\themes\\ge2013_cn\\,C:\\Users\\501981285\\Documents\\GE\\GE.com Countries\\all\\themes\\ge_2012",
+			"C:\\Users\\501981285\\Documents\\GE\\GE.com Countries\\cn\\themes\\ge2013_cn\\",
+			"C:\\Users\\501981285\\Documents\\GE\\GE.com Countries\\cn\\themes\\ge2013_cn\\assets\\js\\bin",
+			"C:\\Users\\501981285\\Documents\\GE\\GE.com Countries\\all\\themes\\ge_2012\\assets\\js\\bin",
+			"C:\\Users\\501981285\\Documents\\GE\\GE.com\\sites\\all\\themes\\ge_2012",
+			"C:\\Users\\501981285\\Documents\\GE\\GE.com Countries\\all\\modules\\rules",
+			"C:\\Users\\501981285\\Documents\\Projects\\GE.com\\modules\\aggregator",
+			"C:\\Users\\501981285\\Documents\\Projects\\GE.com\\sites\\all\\modules",
+			"C:\\Users\\501981285\\Documents\\Projects\\GE.com\\sites\\all\\",
+			"C:\\Users\\501981285\\Documents\\Projects\\GE.com\\sites\\all\\themes",
+			"C:\\Users\\501981285\\Documents\\Projects\\GE.com\\themes",
+			"C:\\Users\\501981285\\Documents\\Projects\\GE.com\\modules\\aggregator",
+			"C:\\Users\\501981285\\Documents\\Projects\\GE.com\\sites\\all\\libraries\\simplepie",
+			"C:\\Users\\501981285\\Documents\\Projects\\GE.com\\sites\\all\\modules\\feeds",
+			"C:\\Users\\501981285\\Documents\\Projects\\GE.com\\sites\\all\\themes\\ge_2012",
+			"block-content-main",
+			"C:\\Users\\501981285\\Documents\\Projects\\Ecochallengecn",
+			"C:\\Users\\501981285\\Documents\\Projects\\GE.com\\sites\\all\\themes\\ge_2012,C:\\Users\\501981285\\Documents\\Projects\\GE.com\\sites\\all\\modules\\custom\\ge_forms",
+			"C:\\Users\\501981285\\Documents\\Projects\\GE.com\\sites\\all\\themes\\ge_2012",
+			"C:\\Users\\501981285\\Documents\\GE\\GE.com",
+			"C:\\Users\\501981285\\Documents\\GE\\GE-Works\\wp-content\\plugins\\blog-metrics"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"contact",
+			"p",
+			"a ",
+			"strong",
+			"responsi",
+			"garages",
+			"ventures",
+			"menu_ventu",
+			" || $element['#theme'] == 'menu_link__menu_wcsj'",
+			"mktFormSupport",
+			"<link type=\"text/css\" rel=\"stylesheet\" href",
+			".add( '//connect.facebook.net/en_US/all.js#xfbml=1',",
+			"typekit",
+			"// -- begin AddThis",
+			"$(",
+			"push",
+			"home",
+			"typekit",
+			"$javascript = array_diff_key($javascript, $exclude);",
+			"typekit",
+			"/soci",
+			"om_tracking_id",
+			"push",
+			"inline",
+			"home",
+			"hero_link_att",
+			"brasil",
+			"block",
+			"search",
+			"jquery",
+			"require",
+			"geui/video",
+			"geui/track",
+			"require",
+			"geui/social",
+			"Social",
+			"social",
+			"Social",
+			"social",
+			"$(\".header-area-social\").css({visibility:\"visible\"});}}).",
+			"window._",
+			"lodash",
+			"_ =",
+			"var _ ",
+			"var _",
+			"jquery",
+			"type",
+			"typekit.",
+			"// 3rd",
+			"var _",
+			"var _ga",
+			"addthis",
+			"typekit.load",
+			"exclude",
+			"$vars['path_alias']",
+			"typekit",
+			"ge_br_contact",
+			"attach",
+			"underscore",
+			"big_image_medium",
+			"big_image_small",
+			"big_image",
+			"undersc",
+			"strong",
+			"span",
+			"twentythirteen",
+			"directory",
+			"VirtualHost",
+			"ge.com",
+			"simple_",
+			"\"state",
+			"filters",
+			"(''),\n",
+			"simple_jobsearch",
+			"careers",
+			"careers/",
+			"careers",
+			"carreiras",
+			"url",
+			"careers/op",
+			"header(",
+			"11209",
+			"<front",
+			"attached",
+			"selecionar",
+			"drupal_map_assoc",
+			"email",
+			"from",
+			"footer",
+			"droid",
+			"pre",
+			"ge_search_ajax_search",
+			"comments",
+			"twentythirteen",
+			"nav",
+			"$section",
+			"$section['a",
+			"research",
+			"abbr",
+			"IM Fell Double Pica",
+			"LeagueGothicRegular",
+			"twentythirteen",
+			"brown",
+			"span",
+			"stylesheet",
+			".css",
+			"style",
+			"ani",
+			"change",
+			"goForward",
+			"COUTNRY",
+			"COUTNRY BOI",
+			"COUTNRY BOI ",
+			"country boi",
+			"console",
+			"ge_feeds_update_feed",
+			"ge_parse",
+			"resize",
+			"otherWay",
+			"mensajenoFocus",
+			"9d8366",
+			"947757",
+			"65533f",
+			"f9f7ea",
+			"c0a383",
+			"6e887a",
+			"81ad9c",
+			"Arial"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"C:/wamp/bin/apache/apache2.2.22/conf/",
+			"&gt;",
+			"&lt;"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 10,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "front-page.php",
+					"settings":
+					{
+						"buffer_size": 4894,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								224,
+								224
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "functions.php",
+					"settings":
+					{
+						"buffer_size": 3623,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1079,
+								1096
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "css/main.css",
+					"settings":
+					{
+						"buffer_size": 17525,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								10023,
+								10029
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 6132.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "header.php",
+					"settings":
+					{
+						"buffer_size": 1865,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1865,
+								1865
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 126.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "index.php",
+					"settings":
+					{
+						"buffer_size": 547,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								523,
+								523
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "js/base.js",
+					"settings":
+					{
+						"buffer_size": 1292,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1140,
+								1140
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "footer.php",
+					"settings":
+					{
+						"buffer_size": 505,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								505,
+								505
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "/C/Users/501981285/Documents/Projects/countries/sites/all/modules/custom/ge_forms/ge_forms.module",
+					"settings":
+					{
+						"buffer_size": 196180,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								111338,
+								111338
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 41339.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 8,
+					"file": "/C/Users/501981285/Documents/GE/GE.com Countries/br/themes/ge2013_br/template.php",
+					"settings":
+					{
+						"buffer_size": 12137,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								7666,
+								7673
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 9,
+					"file": "/C/Users/501981285/Documents/Projects/countries/sites/countrysites.geready.com.in/themes/ge2013_in/ge2013_in.info",
+					"settings":
+					{
+						"buffer_size": 746,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								699,
+								699
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 10,
+					"file": "/C/Users/501981285/Documents/Projects/countries/sites/countrysites.geready.com.in/themes/ge2013_in/template.php",
+					"settings":
+					{
+						"buffer_size": 7,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								7,
+								7
+							]
+						],
+						"settings":
+						{
+							"auto_name": "<?php",
+							"syntax": "Packages/PHP/PHP.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 11,
+					"file": "template-blog.php",
+					"settings":
+					{
+						"buffer_size": 576,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								189,
+								189
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 12,
+					"file": "content.php",
+					"settings":
+					{
+						"buffer_size": 438,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								280,
+								280
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 13,
+					"file": "single.php",
+					"settings":
+					{
+						"buffer_size": 566,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								188,
+								188
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 14,
+					"file": "blog.php",
+					"settings":
+					{
+						"buffer_size": 943,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								783,
+								783
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 34.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 25.0
+	},
+	"output.markdown":
+	{
+		"height": 100.0
+	},
+	"replace":
+	{
+		"height": 62.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"ge_2012",
+				"/C/Users/501981285/Documents/GE/GE.com/sites/all/themes/ge_2012/template.php"
+			],
+			[
+				"main",
+				"/C/Users/501981285/Documents/Projects/marioaguiar/wp-content/themes/marioaguiar/css/main.css"
+			],
+			[
+				"functions",
+				"/C/Users/501981285/Documents/Projects/marioaguiar/wp-content/themes/marioaguiar/functions.php"
+			],
+			[
+				"",
+				"/C/Users/501981285/Sites/acquia-drupal/sites/ge.localhost/modules/custom/ge_forms/ge_forms.module"
+			],
+			[
+				"theme",
+				"/C/Users/501981285/Documents/GE/GE.com/sites/all/themes/ge_2012/theme/theme.inc"
+			],
+			[
+				"wcs",
+				"/C/Users/501981285/Sites/acquia-drupal/sites/ge.localhost/themes/ge_2012/templates/page--node--ge_wcsj.tpl.php"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+		],
+		"width": 380.0
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": false,
+	"side_bar_width": 150.0,
+	"status_bar_visible": true
+}

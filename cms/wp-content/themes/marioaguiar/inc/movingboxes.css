@@ -1,0 +1,137 @@
+/*** Overall MovingBoxes Slider ***/
+.mb-slider {
+  width: 900px; /* default, this is overridden by script settings */
+  margin: 0 auto;
+  position: relative;
+  left: 0;
+  top: 0;
+}
+
+/* Panel Wrapper */
+.mb-scrollContainer, .mb-scroll {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  margin: 0 auto;
+  padding: 0;
+  position: relative;
+  left: 0;
+  top: 0;
+
+  /***(>'-')> Control Panel Font size here <('-'<)***/
+  font-size: 18px;
+}
+
+/* active slider border highlight */
+.mb-active-slider {
+}
+
+/*** Slider panel ***/
+.mb-slider .mb-panel {
+  width: 350px;  /* default, this is overridden by script settings */
+  margin: -2px -15px -15px -15px;
+  padding: 0;
+  cursor: pointer;
+  float: left;
+  list-style: none;
+  z-index: 200;
+  position: relative;
+}
+
+/* Cursor to arrow over current panel, pointer for all others,
+  change .current class name using plugin option, currentPanel : 'current' */
+.mb-slider .mb-panel.current {
+  bottom: 80px;
+  border-radius: 145px 145px 0 0;
+ cursor: auto;
+ z-index: 300;
+ box-shadow: 0px 0px 35px #111;
+ -moz-box-shadow: 0px 0px 35px #111;
+ -webkit-box-shadow: 0px 0px 35px #111;
+}
+
+/*** Inside the panel ***/
+.mb-inside {
+  bottom: -80px;
+}
+
+.mb-inside img {
+  display: block;
+  margin: 0 0 10px 0;
+  width: 100%;
+}
+
+.mb-inside h2 {
+  font-weight: normal;
+  color: #000;
+  font-size: 140%; /* Adjust panel header font size using em or % */
+  margin: 0 0 8px 0;
+}
+
+.mb-inside p {
+  font-size: 100%; /* Adjust panel text font size using em or % */
+  color: #444;
+}
+
+.mb-inside a {
+  color: #333;
+  text-decoration: none;
+  border-bottom: 1px dotted #ccc;
+}
+
+.mb-inside a:hover {
+  border-bottom: 1px solid #999;
+}
+
+/*** Left & Right Navigation Arrows ***/
+a.mb-scrollButtons {
+  display: block;
+  width: 45px;
+  height: 58px;
+  background: transparent url(../images/arrows.png) no-repeat;
+  position: absolute;
+  top: 50%;
+  margin-top: -29px; /* if you change the arrow images, you may have to adjust this (1/2 height of arrow image) */
+  cursor: pointer;
+  text-decoration: none;
+  outline: 0;
+  border: 0;
+}
+a.mb-scrollButtons.mb-left {
+  background-position: left top;
+  left: -45px;
+}
+a.mb-scrollButtons.mb-right {
+  background-position: right top;
+  right: -45px;
+}
+a.mb-scrollButtons.mb-left:hover {
+  background-position: left bottom;
+}
+a.mb-scrollButtons.mb-right:hover {
+  background-position: right bottom;
+}
+
+/*** Controls added below the panels ***/
+.mb-controls {
+  margin: 0 auto;
+  text-align: center;
+  background: #ccc;
+}
+.mb-controls a {
+  color: #444;
+  font: 12px Georgia, Serif;
+  display: inline-block;
+  text-decoration: none;
+  padding: 2px;
+  height: 18px;
+  margin: 0 5px 0 0;
+  text-align: center;
+  outline: 0;
+}
+.mb-controls a.current, .mb-controls a:hover {
+  color: #fff;
+}
+.mb-active-slider .mb-controls {
+  background: #999bff;
+}

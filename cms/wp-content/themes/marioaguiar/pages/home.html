@@ -1,0 +1,85 @@
+<div id="welcome">
+      <p>I am a <strong>front-end developer</strong> specialized in <em>WordPress</em> &amp; <em>Drupal</em>.</p>
+    </div>
+
+    <div class="detailsTop"></div>
+    <div id="detailsContainer">
+      <div id="about-me">
+        <div id="about">
+          <article class="me">
+            <h2>Who am I?</h2>
+            <p>Born in <abbr title="Los Angeles">LA</abbr>, raised in Mexico for over 24 years, that's me, <strong>Mario Aguiar</strong>.</p>
+            <p>I have <em>over seven years</em> of experience in <strong>web development</strong> and I hope to keep doing this for several more years, what can I say, I just love it.</p>
+            <p>I spend most of my time in front of the screen working with web pages. <strong>I love WordPress</strong> and turn designers\' dreams into reality.</p>
+          </article>
+
+          <article class="capabilities">
+            <h2>What do I do?</h2>
+            <p>I specialize in <strong>Front-end development</strong> using these tools:</p>
+            <ul class="tools">
+              <li><abbr title="HyperText Markup Language">HTML</abbr></li>
+              <li>WordPress</li>
+              <li><abbr title="Cascading Style Sheets">CSS</abbr></li>
+              <li>Textpattern</li>
+              <li><abbr title="PHP: Hypertext Preprocessor">PHP</abbr></li>
+              <li>Drupal</li>
+              <li><abbr title="Javascript">JS</abbr></li>
+            </ul>
+          </article>
+          <div class="clear"></div>
+        </div>
+      </div>
+    </div>
+    <div class="detailsBottom"></div>
+    <!-- <div id="work">
+      <h2><?php _e( 'See some of my work' ); ?></h2>
+      <ul class="clearfix">
+        <li class="primary"><a href="#bluemasters"><img id="projectOne" src="<?php echo get_template_directory_uri(); ?>/images/bluemasters.jpg" alt="Bluemasters Theme" /></a></li>
+        <li class="secondary"><a href="#celeste"><img id="projectTwo" src="<?php echo get_template_directory_uri(); ?>/images/celeste.jpg" alt="Celeste Theme" /></a></li>
+        <li class="secondary"><a href="#studioanime"><img id="projectThree" src="<?php echo get_template_directory_uri(); ?>/images/studioanime.jpg" alt="Studio anime" /></a></li>
+      </ul>
+    </div>
+    <div class="detailsBottom"></div> -->
+    <div id="contact">
+      <div id="social">
+        <h3>Get in touch</h3>
+        <p>If you want to get in touch with me, to work together in a proyect, or even just to say something about this site go ahead. Here are some ways you can contact me.<br>Don't be shy!</p>
+        <div class="clear"></div>
+        <ul id="socialIcons">
+          <li><a href="http://twitter.com/emeaguiar"><img src="<?php echo get_template_directory_uri(); ?>/images/twitter.png" alt="Twitter" /></a></li>
+          <li><a href="http://www.facebook.com/mario.aguiar"><img src="<?php echo get_template_directory_uri(); ?>/images/facebook.png" alt="Facebook" /></a></li>
+          <li><a href="http://www.linkedin.com/in/marioaguiar"><img src="<?php echo get_template_directory_uri(); ?>/images/linkedin.png" alt="Linkedin" /></a></li>
+          <li><a href="http://forr.st/-emeaguiar"><img src="<?php echo get_template_directory_uri(); ?>/images/forrst.png" alt="forrst" /></a></li>
+        </ul>
+      </div>
+
+      <form ng-controller="ContactFormCtrl as contactForm" ng-submit="contactForm.$valid" novalidate>
+        <fieldset>
+          <legend>Contact Form</legend>
+          <input id="nombre" ng-model="contactForm.data.name" placeholder="Name" required />
+          <input id="asunto" ng-model="contactForm.data.subject" placeholder="Subject" required />
+          <input id="correo" ng-model="contactForm.data.email" type="email" placeholder="Email" required />
+          <input id="company" ng-model="contactForm.data.company" placeholder="Company" />
+          <textarea id="mensaje" ng-model="contactForm.data.message" ></textarea>
+          <label for="checking" class="screenReader">If you want to send the form, leave this field blank</label>
+          <input type="text" ng-model="contactForm.data.honeyPot" name="checking" id="checking" class="screenReader" value="" />
+          </li>
+          <button type="submit" id="enviar" name="submit">Send</button>
+        </fieldset>
+
+      <aside id="otherWay">
+        <h3>More ways!</h3>
+        <p>If by any weird reason the contact form is not working, here are some more ways.</p>
+
+        <ul>
+          <li><strong>Email</strong> - me[at]marioaguiar.net</li>
+          <li><strong>Phone</strong> - (203) 543 4515</li>
+          <li><strong>City</strong> - New Haven, CT</li>
+          <li><strong>Country</strong> - USA</li>
+        </ul>
+
+      </aside>
+      <div class="clear"></div>
+    </form>
+
+    </div>
