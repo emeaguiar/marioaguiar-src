@@ -48,10 +48,25 @@
   }]);
 
   app.controller("contactFormCtrl", ['$http', function($http) {
-      this.email = {};
+      var form = this;
+      form.email = {};
 
-      this.sendMessage = function(data) {
-        console.log(data);
+      form.success = false;
+
+      form.sendMessage = function(data) {
+        $http({
+          method: 'POST',
+          url: '/includes/mail.php',
+          data: data,
+          headers: { 'Content-Type': 'application/x-www-form-urlencoded' }
+        })
+        .success( function(data) {
+          if ( data.success ) {
+            form.success = true;
+          } else {
+            form.error = true;
+          }
+        } );
       };
     }]);
 

@@ -2680,6 +2680,15 @@ pre {
   .row:after {
     clear: both; }
 
+.message-success, .message-error {
+  background-color: #dff0d8;
+  color: #3c763d;
+  padding: 15px; }
+
+.message-error {
+  color: #a94442;
+  background-color: #f2dede; }
+
 #loader {
   margin: 15px; }
 

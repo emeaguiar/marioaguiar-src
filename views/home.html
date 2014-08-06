@@ -61,27 +61,30 @@
           </ul>
           <form role="form" name="contactForm" ng-submit="contactForm.$valid && form.sendMessage(form.email)" contact-form>
             <fieldset>
+              <p class="message-success" ng-show="form.success">Thanks for getting in touch!</p>
+              <p class="message-error" ng-show="form.error">Oops! There was an error in the form, please try again.</p>
               <legend class="h1">Contact Form</legend>
               <div class="input-field">
                 <label for="name" class="sr-only">Name:</label>
-                <input id="name" type="text" placeholder="Name" class="form-control" ng-model="form.email.name" required>
+                <input id="name" name="name" type="text" placeholder="Name" class="form-control" ng-model="form.email.name" required>
               </div>
               <div class="input-field">
                 <label for="subject" class="sr-only">Subject:</label>
-                <input id="subject" type="text" placeholder="Subject" class="form-control" ng-model="form.email.subject">
+                <input id="subject" name="subject" type="text" placeholder="Subject" class="form-control" ng-model="form.email.subject">
               </div>
               <div class="input-field">
                 <label for="email" class="sr-only">Email:</label>
-                <input id="email" type="email" placeholder="Email" class="form-control" ng-model="form.email.email" required>
+                <input id="email" name="email" type="email" placeholder="Email" class="form-control" ng-model="form.email.email" required>
               </div>
               <div class="input-field">
                 <label for="company" class="sr-only">Company:</label>
-                <input id="company" type="text" placeholder="Company" class="form-control" ng-model="form.email.company">
+                <input id="company" name="company" type="text" placeholder="Company" class="form-control" ng-model="form.email.company">
               </div>
               <div class="message-field">
                 <textarea name="message" id="message" class="form-control" ng-model="form.email.text" required></textarea>
                 <label for="honeyPot" class="sr-only">If you want to send the form, leave this field blank.</label>
-                <input type="text" id="honeyPot" class="sr-only" ng-model="form.email.honey">
+                <input type="text" id="honeyPot" class="sr-only" name="honey" ng-model="form.email.honey">
+                <input type="hidden" name="submit" ng-model="form.email.submit" value="true">
                 <button id="send" type="submit" class="btn btn-lg btn-block">Send</button>
               </div>
             </fieldset>
@@ -89,7 +92,7 @@
               <h3 class="h1">More ways!</h3>
               <p>If by any weird reason the contact form is not working, here are some more ways to contact me.</p>
               <ul>
-                <li><strong>Email:</strong> me[at]marioaguiar.net</li>
+                <li><strong>Email:</strong> hello[at]marioaguiar.net</li>
                 <li><strong>Phone:</strong> (203) 543 4515</li>
                 <li><strong>City:</strong> New Haven, CT</li>
                 <li><strong>Country:</strong> USA</li>

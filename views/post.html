@@ -19,39 +19,4 @@
 
     <hr class="separator">
 
-    <section id="comments-list">
-
-    </section>
-
-    <section id="comment-form">
-      <div class="container">
-        <form comment-form post-id="single.post.id" role="form">
-          <fieldset>
-            <legend class="h1">Leave a comment:</legend>
-            <div class="row">
-              <div class="form-group input-field">
-                <label for="name">Name:</label><br>
-                <input type="text" id="name" name="name" class="form-control" ng-model="commentForm.comment.author" required>
-              </div>
-            </div>
-            <div class="row">
-              <div class="form-group input-field">
-                <label for="email">Email:</label><br>
-                <input type="email" id="email" name="email" class="form-control" ng-model="commentForm.comment.email" required>
-              </div>
-            </div>
-            <div class="row">
-              <div class="form-group message-field">
-                <label for="comment">Comment:</label><br>
-                <textarea name="comment" id="comment" class="form-control" ng-model="commentForm.comment.text" required></textarea>
-              </div>
-            </div>
-          </fieldset>
-          <button type="submit" class="btn btn-lg btn-submit">Submit</button>
-        </form>
-      </div>
-    </section>
-
-    <hr class="separator">
-
     <section-footer></section-footer>
