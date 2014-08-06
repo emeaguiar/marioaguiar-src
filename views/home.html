@@ -7,16 +7,16 @@
     <section id="details">
       <div class="container">
         <div class="row">
-          <div class="col-md-4 hidden-xs">
+          <div class="photo hidden-xs">
             <img src="assets/images/photo.png" alt="That's me!" class="center-block">
           </div>
-          <article class="col-md-4">
+          <article>
             <h2>Who am I?</h2>
             <p>Born in <abbr title="Los Angeles">LA</abbr>, raised in Mexico for over 24 years, that's me, <strong>Mario Aguiar</strong>.</p>
             <p>I have <em>over seven years</em> of experience in <strong>web development</strong> and I hope to keep doing this for several more years, what can I say, I just love it.</p>
             <p>I spend most of my time in front of the screen working with web pages. <strong>I love WordPress</strong> and turn designers' dreams into reality.</p>
           </article>
-          <article class="col-md-4">
+          <article>
             <h2>What do I do?</h2>
             <p>I specialize in <strong>Front-end development</strong> using these tools:</p>
             <ul class="tools">
@@ -39,45 +39,53 @@
       <div class="container">
         <div class="social">
           <h3 class="h1 text-center">Get in Touch</h3>
-          <div class="envelope clearfix">
-            <div class="col-md-4 visible-lg">
+          <div class="clearfix">
+            <div class="envelope visible-lg">
               <img class="center-block" src="assets/images/envelope.png" alt="Get in Touch">
             </div>
             <p>If you want to get in touch with me, to work together in a proyect, or even just to say something about this site go ahead. Here are some ways you can contact me.<br>Don't be shy!</p>
           </div>
-          <ul id="social" class="nav nav-pills center-block">
-            <li><a href="http://twitter.com/emeaguiar"><img src="assets/images/twitter.png" alt="Twitter"></a></li>
-            <li><a href="http://www.facebook.com/mario.aguiar"><img src="assets/images/facebook.png" alt="Facebook"></a></li>
-            <li><a href="http://www.linkedin.com/in/marioaguiar"><img src="assets/images/linkedin.png" alt="Linkedin"></a></li>
-            <li><a href="http://forr.st/-emeaguiar"><img src="assets/images/forrst.png" alt="forrst"></a></li>
+          <ul class="nav nav-pills">
+            <li>
+              <a href="http://twitter.com/emeaguiar"><img src="assets/images/twitter.png" alt="Twitter"></a>
+            </li>
+            <li>
+              <a href="http://www.facebook.com/mario.aguiar"><img src="assets/images/facebook.png" alt="Facebook"></a>
+            </li>
+            <li>
+              <a href="http://www.linkedin.com/in/marioaguiar"><img src="assets/images/linkedin.png" alt="Linkedin"></a>
+            </li>
+            <li>
+              <a href="http://forr.st/-emeaguiar"><img src="assets/images/forrst.png" alt="forrst"></a>
+            </li>
           </ul>
           <form role="form" name="contactForm" ng-submit="contactForm.$valid && form.sendMessage(form.email)" contact-form>
-            <fieldset class="col-md-8">
+            <fieldset>
               <legend class="h1">Contact Form</legend>
-              <div class="col-md-6">
-                  <label for="name" class="sr-only">Name:</label>
-                  <input id="name" type="text" placeholder="Name" class="form-control" ng-model="form.email.name" required>
-                </div>
-                <div class="col-md-6">
-                  <label for="subject" class="sr-only">Subject:</label>
-                  <input id="subject" type="text" placeholder="Subject" class="form-control" ng-model="form.email.subject">
-                </div>
-                <div class="col-md-6">
-                  <label for="email" class="sr-only">Email:</label>
-                  <input id="email" type="email" placeholder="Email" class="form-control" ng-model="form.email.email" required>
-                </div>
-                <div class="col-md-6">
-                  <label for="company" class="sr-only">Company:</label>
-                  <input id="company" type="text" placeholder="Company" class="form-control" ng-model="form.email.company">
-                </div>
-              <div class="col-md-12">
+              <div class="input-field">
+                <label for="name" class="sr-only">Name:</label>
+                <input id="name" type="text" placeholder="Name" class="form-control" ng-model="form.email.name" required>
+              </div>
+              <div class="input-field">
+                <label for="subject" class="sr-only">Subject:</label>
+                <input id="subject" type="text" placeholder="Subject" class="form-control" ng-model="form.email.subject">
+              </div>
+              <div class="input-field">
+                <label for="email" class="sr-only">Email:</label>
+                <input id="email" type="email" placeholder="Email" class="form-control" ng-model="form.email.email" required>
+              </div>
+              <div class="input-field">
+                <label for="company" class="sr-only">Company:</label>
+                <input id="company" type="text" placeholder="Company" class="form-control" ng-model="form.email.company">
+              </div>
+              <div class="message-field">
                 <textarea name="message" id="message" class="form-control" ng-model="form.email.text" required></textarea>
                 <label for="honeyPot" class="sr-only">If you want to send the form, leave this field blank.</label>
                 <input type="text" id="honeyPot" class="sr-only" ng-model="form.email.honey">
                 <button id="send" type="submit" class="btn btn-lg btn-block">Send</button>
               </div>
             </fieldset>
-            <aside class="col-md-4 pull-right">
+            <aside class="pull-right">
               <h3 class="h1">More ways!</h3>
               <p>If by any weird reason the contact form is not working, here are some more ways to contact me.</p>
               <ul>

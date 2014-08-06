@@ -1,23 +1,25 @@
     <hr class="separator">
 
-    <section id="archive">
-      <div class="container">
+    <section id="archive" class="row">
+      <div class="content">
         <div id="loader" class="text-center" ng-show="archive.loading">
           <img src="/assets/images/loader.gif" alt="">
         </div>
         <div ng-repeat="post in archive.posts" class="post row" id="post-{{ post.id }}" ng-hide="archive.loading">
-          <div class="metadata col-md-4 text-right">
+          <div class="metadata text-right">
             <h2><a href="/blog/{{ post.slug }}">{{ post.title }}</a></h2>
             <time>{{ post.date | wpDate : 'MMMM dd, yyyy' }}</time>
           </div>
-          <div class="content col-md-8">
+          <div class="content">
             <div ng-bind-html="post.excerpt"></div>
           </div>
         </div>
-      </div>
 
-      <div class="container">
-        <button type="button" class="btn btn-lg pull-left" ng-click="archive.prevPage()" ng-hide="archive.page == 1">Previous Page</button>
-        <button type="button" class="btn btn-lg pull-right" ng-click="archive.nextPage()" ng-hide="archive.page == archive.totalPages">Next Page</button>
+        <button type="button" class="btn btn-lg pull-left hidden" ng-click="archive.prevPage()" ng-show="archive.page != 1">Previous Page</button>
+        <button type="button" class="btn btn-lg pull-right hidden" ng-click="archive.nextPage()" ng-show="archive.page != archive.totalPages">Next Page</button>
       </div>
     </section>
+
+    <hr class="separator">
+
+    <section-footer></section-footer>

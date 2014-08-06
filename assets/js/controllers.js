@@ -43,6 +43,10 @@
     });
   }]);
 
+  app.controller("commentFormCtrl", ['$http', function($http) {
+
+  }]);
+
   app.controller("contactFormCtrl", ['$http', function($http) {
       this.email = {};
 

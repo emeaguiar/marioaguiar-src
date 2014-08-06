@@ -28,6 +28,15 @@
       }
   }]);
 
+  app.directive("commentForm", function() {
+    return {
+      restrict: "A",
+      postId: "=postId",
+      controller: "commentFormCtrl",
+      controllerAs: "commentForm"
+    }
+  });
+
   app.directive("sectionFooter", function() {
     return {
       restrict: "E",

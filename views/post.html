@@ -2,15 +2,56 @@
 
     <section id="post">
       <div class="container">
-        <div id="loader" class="text-center" ng-show="single.loading">
-          <img src="/assets/images/loader.gif" alt="">
-        </div>
-        <div class="post" id="post-{{ single.post.id }}" ng-hide="single.loading">
-          <div class="metadata text-center">
-            <h1>{{ single.post.title }}</h1>
-            <time>{{ single.post.date | wpDate : 'MMMM dd, yyyy' }}</time>
+        <div class="row">
+          <div id="loader" class="text-center" ng-class="single.loading ? '' : 'hidden'">
+            <img src="/assets/images/loader.gif" alt="">
           </div>
-          <div ng-bind-html="single.post.content"></div>
+          <div class="post hidden" id="post-{{ single.post.id }}" ng-class="single.loading ? 'hidden' : ''">
+            <div class="metadata text-center">
+              <h1>{{ single.post.title }}</h1>
+              <time>{{ single.post.date | wpDate : 'MMMM dd, yyyy' }}</time>
+            </div>
+            <div ng-bind-html="single.post.content"></div>
+          </div>
         </div>
       </div>
     </section>
+
+    <hr class="separator">
+
+    <section id="comments-list">
+
+    </section>
+
+    <section id="comment-form">
+      <div class="container">
+        <form comment-form post-id="single.post.id" role="form">
+          <fieldset>
+            <legend class="h1">Leave a comment:</legend>
+            <div class="row">
+              <div class="form-group input-field">
+                <label for="name">Name:</label><br>
+                <input type="text" id="name" name="name" class="form-control" ng-model="commentForm.comment.author" required>
+              </div>
+            </div>
+            <div class="row">
+              <div class="form-group input-field">
+                <label for="email">Email:</label><br>
+                <input type="email" id="email" name="email" class="form-control" ng-model="commentForm.comment.email" required>
+              </div>
+            </div>
+            <div class="row">
+              <div class="form-group message-field">
+                <label for="comment">Comment:</label><br>
+                <textarea name="comment" id="comment" class="form-control" ng-model="commentForm.comment.text" required></textarea>
+              </div>
+            </div>
+          </fieldset>
+          <button type="submit" class="btn btn-lg btn-submit">Submit</button>
+        </form>
+      </div>
+    </section>
+
+    <hr class="separator">
+
+    <section-footer></section-footer>
