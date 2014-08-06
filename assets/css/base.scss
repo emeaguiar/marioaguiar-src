@@ -1,0 +1,121 @@
+@import 'bootstrap';
+
+// Define colors
+$lightGreen: #8dc8ad;
+$lightBrown: #8f7051;
+$darkBrown: #62503c;
+$lightBeige: #f1eeda;
+$darkBeige: #c0a383;
+$darkRed: rgba(109, 0, 66, 0.6);
+
+$font: "Droid Serif", serif;
+
+$colWidth: 78px;
+
+$bodyBackground: $lightGreen;
+$detailsBackground: $darkBrown;
+$contactBackground: $lightBrown;
+$textColor: $lightBeige;
+$separatorColor: $darkBeige;
+$linkColor: $textColor;
+$invalidText: $darkRed;
+$inputColor: lighten($detailsBackground, 10%);
+
+// Buttons
+$buttonColor: lighten($detailsBackground, 10%);
+
+body {
+  background: $bodyBackground;
+  color: $textColor;
+  font-family: $font;
+  a {
+    color: $linkColor;
+  }
+}
+
+#loader {
+  margin: 15px;
+}
+
+#welcome {
+  margin-top: 8%;
+  padding-bottom: 130px;
+  text-align: center;
+  p {
+    font-size: 40px;
+    strong {
+      background: $textColor;
+      border-radius: 10px;
+      color: $bodyBackground;
+      font-weight: 500;
+      padding: 5px 15px;
+    }
+  }
+}
+
+hr.separator {
+  border-top: 10px solid $separatorColor;
+  margin: 0;
+}
+
+#details {
+  background: $detailsBackground;
+  padding: 50px 0;
+  article {
+    @include make-md-column(4);
+  }
+  .photo {
+    @include make-md-column(4);
+  }
+}
+
+#contact {
+  background: $contactBackground;
+  padding: 50px 0;
+  .social {
+    .envelope {
+      @include make-md-column(4);
+    }
+    ul {
+      @media only screen and (min-width: 602px) {
+        width: ($colWidth * 6);
+      }
+      @include center-block();
+    }
+  }
+  #message {
+    background: lighten($detailsBackground, 10%);
+    border: 1px solid darken($contactBackground, 10%);
+    color: $textColor;
+    height: 200px;
+    margin: 5px 0 10px;
+  }
+  input {
+    @extend #message;
+    font-size: 20px;
+    height: auto;
+    margin: 5px;
+    padding: 3px;
+  }
+  #send {
+    color: $buttonColor;
+    font-size: 25px;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+  }
+  form {
+    fieldset {
+      @include make-md-column(8);
+      .input-field {
+        @include make-md-column(6);
+      }
+      .message-field {
+        @include make-md-column(12);
+      }
+    }
+    aside {
+      @include make-md-column(4);
+      @include pull-right();
+    }
+  }
+}
