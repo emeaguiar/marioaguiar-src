@@ -2882,7 +2882,11 @@ input.ng-valid.ng-dirty, #comment-form form .message-field textarea.ng-valid.ng-
   #post .metadata, #post .post h2 {
     border-bottom: 3px dotted;
     margin-bottom: 15px;
-    padding-bottom: 15px; }
+    padding-bottom: 15px;
+    text-align: center; }
+    @media only screen and (max-width: 700px) {
+      #post .metadata, #post .post h2 {
+        text-align: left; } }
   #post time {
     text-transform: uppercase; }
   #post .post {
