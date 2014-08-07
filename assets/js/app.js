@@ -51,12 +51,12 @@
         var isPhone = matchmedia.isPhone(),
             isBigScreen = matchmedia.is("screen and (min-width: 1200px)");
         this.title = "<strong>front-end developer</strong>";
-        this.technologies = "<em>WordPress</em> &amp; <em>Drupal</em>";
+        this.technologies = "<br><em>WordPress</em> &amp; <em>Drupal</em>";
         if (isPhone) {
-          this.title = "<br><strong>frontend</strong><br><strong>developer</strong>";
+          this.title = "<br><strong>frontend</strong> <strong>developer</strong><br>";
           this.technologies = "<br><em>WordPress</em> &amp; <em>Drupal</em>";
         } else if (isBigScreen) {
-          this.title = "<br><strong>frontend developer</strong>";
+          this.title = "<strong>frontend developer</strong>";
           this.technologies = "<br><em>WordPress</em> &amp; <em>Drupal</em>";
         }
       },
