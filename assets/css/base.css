@@ -2853,11 +2853,15 @@ input.ng-valid.ng-dirty, #comment-form form .message-field textarea.ng-valid.ng-
       position: relative;
       min-height: 1px;
       padding-left: 15px;
-      padding-right: 15px; }
+      padding-right: 15px;
+      text-align: right; }
       @media (min-width: 992px) {
         #archive .post .metadata, #archive #post .post h2, #post #archive .post h2 {
           float: left;
           width: 33.33333%; } }
+      @media only screen and (max-width: 970px) {
+        #archive .post .metadata, #archive #post .post h2, #post #archive .post h2 {
+          text-align: left; } }
     #archive .post .content {
       position: relative;
       min-height: 1px;

@@ -159,6 +159,9 @@ input.ng-valid.ng-dirty
       text-transform: uppercase
     .metadata
       +make-md-column(4)
+      text-align: right
+      @media only screen and ( max-width: $container-md )
+        text-align: left
     .content
       +make-md-column(8)
       margin-top: 18px

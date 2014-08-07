@@ -2,8 +2,7 @@
   var app = angular.module('aguiar.controllers', ['ngSanitize', 'ngRoute']);
 
   app.controller('archivesController', ['$http', '$location', '$routeParams', function($http, $location, $routeParams) {
-    var archive = this,
-        archiveClass = 'text-right';
+    var archive = this;
 
     archive.page = ($routeParams.page) ? $routeParams.page : 1;
 

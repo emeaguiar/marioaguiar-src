@@ -53,7 +53,8 @@
             this.title = "<strong>front-end developer</strong>";
         this.technologies = "<em>WordPress</em> &amp; <em>Drupal</em>";
         if (isPhone) {
-          this.title = "<strong>frontend</strong> <strong>developer</strong>";
+          this.title = "<br><strong>frontend developer</strong>";
+          this.technologies = "<br><em>WordPress</em> &amp; <em>Drupal</em>";
         } else if (isBigScreen) {
           this.technologies = "<br><em>WordPress</em> &amp; <em>Drupal</em>";
         }
