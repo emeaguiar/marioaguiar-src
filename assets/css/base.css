@@ -7,7 +7,7 @@ html {
 body {
   margin: 0; }
 
-article,
+article, #details .photo,
 aside,
 details,
 figcaption,
@@ -2689,7 +2689,7 @@ pre {
   color: #a94442;
   background-color: #f2dede; }
 
-#loader {
+.loader {
   margin: 15px; }
 
 #welcome {
@@ -2712,22 +2712,13 @@ hr.separator {
 #details {
   background: #62503c;
   padding: 50px 0; }
-  #details article {
+  #details article, #details .photo {
     position: relative;
     min-height: 1px;
     padding-left: 15px;
     padding-right: 15px; }
     @media (min-width: 992px) {
-      #details article {
-        float: left;
-        width: 33.33333%; } }
-  #details .photo {
-    position: relative;
-    min-height: 1px;
-    padding-left: 15px;
-    padding-right: 15px; }
-    @media (min-width: 992px) {
-      #details .photo {
+      #details article, #details .photo {
         float: left;
         width: 33.33333%; } }
 
@@ -2820,9 +2811,6 @@ input.ng-invalid.ng-dirty, #comment-form form .message-field textarea.ng-invalid
 
 input.ng-valid.ng-dirty, #comment-form form .message-field textarea.ng-valid.ng-dirty {
   outline-color: #01543a !important; }
-
-#footer {
-  background: #8f7051; }
 
 #archive {
   background: #62503c; }
@@ -2943,3 +2931,38 @@ input.ng-valid.ng-dirty, #comment-form form .message-field textarea.ng-valid.ng-
           width: 66.66667%; } }
       #comment-form form .message-field textarea {
         height: 100px; }
+
+#footer {
+  background: #8f7051;
+  padding-bottom: 15px; }
+  #footer a {
+    border-bottom: 1px solid; }
+    #footer a:hover {
+      border: none;
+      color: #f1eeda; }
+  #footer h2 {
+    text-transform: uppercase; }
+  #footer .about {
+    position: relative;
+    min-height: 1px;
+    padding-left: 15px;
+    padding-right: 15px; }
+    @media (min-width: 992px) {
+      #footer .about {
+        float: left;
+        width: 50%; } }
+    @media (min-width: 992px) {
+      #footer .about {
+        margin-left: 8.33333%; } }
+    #footer .about .avatar {
+      margin-right: 5px;
+      padding-right: 5px; }
+  #footer .contact {
+    position: relative;
+    min-height: 1px;
+    padding-left: 15px;
+    padding-right: 15px; }
+    @media (min-width: 992px) {
+      #footer .contact {
+        float: left;
+        width: 33.33333%; } }

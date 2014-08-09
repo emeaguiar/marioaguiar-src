@@ -65,7 +65,7 @@ pre
   color: #a94442
   background-color: #f2dede
 
-#loader
+.loader
   margin: 15px
 
 #welcome
@@ -91,7 +91,7 @@ hr.separator
   article
     +make-md-column(4)
   .photo
-    +make-md-column(4)
+    @extend article
 
 #contact
   background: $contactBackground
@@ -136,9 +136,6 @@ input.ng-invalid.ng-dirty
   box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset, 0 0 8px $invalidText
 input.ng-valid.ng-dirty
   outline-color: #01543A !important
-
-#footer
-  background: $contactBackground
 
 // Archive
 #archive
@@ -208,3 +205,23 @@ input.ng-valid.ng-dirty
       textarea
         @extend input
         height: 100px
+
+// Footer
+#footer
+  background: $contactBackground
+  padding-bottom: 15px
+  a
+    border-bottom: 1px solid
+    &:hover
+      border: none
+      color: $textColor
+  h2
+    text-transform: uppercase
+  .about
+    +make-md-column(6)
+    +make-md-column-offset(1)
+    .avatar
+      margin-right: 5px
+      padding-right: 5px
+  .contact
+    +make-md-column(4)

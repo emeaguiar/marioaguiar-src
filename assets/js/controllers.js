@@ -47,26 +47,26 @@
   }]);
 
   app.controller("contactFormCtrl", ['$http', function($http) {
-      var form = this;
-      form.email = {};
+    var form = this;
+    form.email = {};
 
-      form.success = false;
+    form.success = false;
 
-      form.sendMessage = function(data) {
-        $http({
-          method: 'POST',
-          url: '/includes/mail.php',
-          data: data,
-          headers: { 'Content-Type': 'application/x-www-form-urlencoded' }
-        })
-        .success( function(data) {
-          if ( data.success ) {
-            form.success = true;
-          } else {
-            form.error = true;
-          }
-        } );
-      };
-    }]);
+    form.sendMessage = function(data) {
+      $http({
+        method: 'POST',
+        url: '/includes/mail.php',
+        data: data,
+        headers: { 'Content-Type': 'application/x-www-form-urlencoded' }
+      })
+      .success( function(data) {
+        if ( data.success ) {
+          form.success = true;
+        } else {
+          form.error = true;
+        }
+      } );
+    };
+  }]);
 
 })(angular);
