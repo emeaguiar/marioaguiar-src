@@ -2692,6 +2692,19 @@ pre {
 .loader {
   margin: 15px; }
 
+#navigation {
+  position: relative;
+  min-height: 1px;
+  padding-left: 15px;
+  padding-right: 15px; }
+  @media (min-width: 992px) {
+    #navigation {
+      float: left;
+      width: 66.66667%; } }
+  @media (min-width: 992px) {
+    #navigation {
+      margin-left: 16.66667%; } }
+
 #welcome {
   margin-top: 8%;
   padding-bottom: 130px;
@@ -2830,7 +2843,10 @@ input.ng-valid.ng-dirty, #comment-form form .message-field textarea.ng-valid.ng-
     color: #826a4f;
     margin-bottom: 20px; }
   #archive .post {
+    border-bottom: 3px dotted;
     padding: 30px; }
+    #archive .post:last-of-type {
+      border: 0; }
     #archive .post h2 {
       font-size: 1.3em;
       text-transform: uppercase; }
@@ -2889,6 +2905,8 @@ input.ng-valid.ng-dirty, #comment-form form .message-field textarea.ng-valid.ng-
     @media (min-width: 992px) {
       #post .post {
         margin-left: 16.66667%; } }
+    #post .post h2 {
+      text-align: left; }
 
 #comment-form {
   background: #8f7051; }

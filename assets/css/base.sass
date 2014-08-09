@@ -68,6 +68,10 @@ pre
 .loader
   margin: 15px
 
+#navigation
+  +make-md-column(8)
+  +make-md-column-offset(2)
+
 #welcome
   margin-top: 8%
   padding-bottom: 130px
@@ -147,7 +151,10 @@ input.ng-valid.ng-dirty
     color: $buttonColor
     margin-bottom: 20px
   .post
+    border-bottom: 3px dotted
     padding: 30px
+    &:last-of-type
+      border: 0
     h2
       font-size: 1.3em
       text-transform: uppercase
@@ -184,6 +191,7 @@ input.ng-valid.ng-dirty
     +make-md-column-offset(2)
     h2
       @extend .metadata
+      text-align: left
 
 // Comment form
 #comment-form

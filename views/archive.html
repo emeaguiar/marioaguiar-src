@@ -1,22 +1,24 @@
     <hr class="separator">
 
-    <section id="archive" class="row">
+    <section id="archive" class="clearfix">
       <div class="content">
-        <div class="loader text-center" ng-show="archive.loading">
-          <img src="/assets/images/loader.gif" alt="">
-        </div>
-        <div ng-repeat="post in archive.posts" class="post row" id="post-{{ post.id }}" ng-hide="archive.loading">
-          <div class="metadata">
-            <h2><a href="/blog/{{ post.slug }}">{{ post.title }}</a></h2>
-            <time>{{ post.date | wpDate : 'MMMM dd, yyyy' }}</time>
+        <div class="row">
+          <div class="loader text-center" ng-show="archive.loading">
+            <img src="/assets/images/loader.gif" alt="">
           </div>
-          <div class="content">
-            <div ng-bind-html="post.excerpt"></div>
+          <div ng-repeat="post in archive.posts" class="post row" id="post-{{ post.id }}" ng-hide="archive.loading">
+            <div class="metadata">
+              <h2><a href="/blog/{{ post.slug }}">{{ post.title }}</a></h2>
+              <time>{{ post.date | wpDate : 'MMMM dd, yyyy' }}</time>
+            </div>
+            <div class="content">
+              <div ng-bind-html="post.excerpt"></div>
+            </div>
           </div>
-        </div>
 
-        <button type="button" class="btn btn-lg pull-left hidden" ng-click="archive.prevPage()" ng-show="archive.page != 1">Previous Page</button>
-        <button type="button" class="btn btn-lg pull-right hidden" ng-click="archive.nextPage()" ng-show="archive.page != archive.totalPages">Next Page</button>
+          <button type="button" class="btn btn-lg pull-left hidden" ng-click="archive.prevPage()" ng-show="archive.page != 1">Previous Page</button>
+          <button type="button" class="btn btn-lg pull-right hidden" ng-click="archive.nextPage()" ng-show="archive.page != archive.totalPages">Next Page</button>
+        </div>
       </div>
     </section>
 
