@@ -4,9 +4,11 @@
   app.config(['$routeProvider', '$locationProvider', function($routeProvider, $locationProvider) {
     $routeProvider
       .when('/', {
+        title: 'Home',
         templateUrl: 'views/home.html'
       })
       .when('/blog', {
+        title: 'Blog archives',
         templateUrl: '/views/archive.html',
         controller: 'archivesController',
         controllerAs: 'archive'
@@ -74,11 +76,34 @@
 
   app.filter( 'wpDate', ['$filter', function($filter) {
     return function(date, format) {
-      var d = date.match(/\d+/g), // Extract parts
-          timestamp = new Date(d[0], d[1] - 1, d[2], d[3], d[4], d[5]); // Build date object
+      if ( date !== undefined ) {
+        var d = date.match(/\d+/g), // Extract parts
+            timestamp = new Date(d[0], d[1] - 1, d[2], d[3], d[4], d[5]); // Build date object
 
-      return $filter('date')(timestamp, format);
+        return $filter('date')(timestamp, format);
+      }
     }
+  }]);
+
+  app.filter( 'mainTitle', function() {
+    return function (title) {
+      if ( title === 'Home' )
+        return 'Portfolio of Wordpress, Drupal, and Front End Developer Mario Aguiar';
+      else
+        return title + ' - Wordpress, Drupal, and Front End Developer Mario Aguiar';
+    }
+  } );
+
+  app.run(['$rootScope', function($rootScope) {
+    $rootScope.page = {
+      setTitle: function(title) {
+        this.title = title;
+      }
+    };
+
+    $rootScope.$on('$routeChangeSuccess', function(event, current, previous) {
+      $rootScope.page.setTitle(current.$$route.title || 'Home');
+    });
   }]);
 
 })(angular);

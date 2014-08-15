@@ -31,14 +31,13 @@
 
   }]);
 
-  app.controller('postController', ['$http', '$routeParams', function($http, $routeParams) {
-    var slug = $routeParams.title,
-        single = this;
-    single.loading = true;
+  app.controller('postController', ['$scope', '$http', '$routeParams', function($scope, $http, $routeParams) {
+    var slug = $routeParams.title;
+    $scope.loading = true;
     $http.get('/cms/api/get_post/?slug=' + slug).success( function(data) {
-      single.post = data.post;
-      single.loading = false;
-      console.log(single);
+      $scope.page.setTitle(data.post.title);
+      $scope.post = data.post;
+      $scope.loading = false;
     });
   }]);
 

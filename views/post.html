@@ -3,15 +3,15 @@
     <section id="post">
       <div class="container">
         <div class="row">
-          <div class="loader text-center" ng-class="single.loading ? '' : 'hidden'">
+          <div class="loader text-center" ng-class="loading ? '' : 'hidden'">
             <img src="/assets/images/loader.gif" alt="">
           </div>
-          <div class="post hidden" id="post-{{ single.post.id }}" ng-class="single.loading ? 'hidden' : ''">
+          <div class="post" id="post-{{ post.id }}">
             <div class="metadata">
-              <h1>{{ single.post.title }}</h1>
-              <time>{{ single.post.date | wpDate : 'MMMM dd, yyyy' }}</time>
+              <h1 ng-bind="post.title"></h1>
+              <time ng-bind="post.date | wpDate : 'MMMM dd, yyyy'"></time>
             </div>
-            <div ng-bind-html="single.post.content"></div>
+            <div ng-bind-html="post.content"></div>
           </div>
         </div>
       </div>
