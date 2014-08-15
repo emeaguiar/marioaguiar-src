@@ -1,5 +1,5 @@
 (function(angular) {
-  var app = angular.module('aguiar', ["ngSanitize", "matchmedia-ng", "ngRoute", "aguiar.controllers"]);
+  var app = angular.module('aguiar', ["ngSanitize", "matchmedia-ng", "ngRoute", "aguiar.controllers", "analytics"]);
 
   app.config(['$routeProvider', '$locationProvider', function($routeProvider, $locationProvider) {
     $routeProvider
@@ -94,7 +94,7 @@
     }
   } );
 
-  app.run(['$rootScope', function($rootScope) {
+  app.run(['$rootScope', 'analytics', function($rootScope) {
     $rootScope.page = {
       setTitle: function(title) {
         this.title = title;
@@ -104,6 +104,15 @@
     $rootScope.$on('$routeChangeSuccess', function(event, current, previous) {
       $rootScope.page.setTitle(current.$$route.title || 'Home');
     });
+  }]);
+
+  // Analytics
+  analytics = angular.module( 'analytics', ['ng'] );
+  analytics.service( 'analytics', [ '$rootScope', '$window', '$location', function($rootScope, $window, $location) {
+    var track = function() {
+      $window.ga('send', 'pageview', { 'page': $location.path() });
+    };
+    $rootScope.$on('$viewContentLoaded', track);
   }]);
 
 })(angular);
