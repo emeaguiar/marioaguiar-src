@@ -1,0 +1,43 @@
+// Single
+#post
+  background: $detailsBackground
+  a
+    border-bottom: 1px solid
+    &:hover
+      border: 0
+  .metadata
+    border-bottom: 3px dotted
+    margin-bottom: 15px
+    padding-bottom: 15px
+    text-align: center
+    @media only screen and ( max-width: 700px )
+      text-align: left
+  time
+    text-transform: uppercase
+  .post
+    +make-md-column(8)
+    +make-md-column-offset(2)
+    h2
+      @extend .metadata
+      text-align: left
+
+// Comment form
+#comment-form
+  background: $contactBackground
+  form
+    +make-md-column(8)
+    +make-md-column-offset(2)
+    .btn-submit
+      color: $buttonColor
+      margin-bottom: 20px
+    input
+      background: lighten($detailsBackground, 10%)
+      border: 1px solid darken($contactBackground, 10%)
+      color: $textColor
+    .input-field
+      +make-md-column(4)
+    .message-field
+      +make-md-column(8)
+      textarea
+        @extend input
+        height: 100px

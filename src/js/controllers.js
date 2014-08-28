@@ -1,33 +1,34 @@
 (function(angular) {
   var app = angular.module('aguiar.controllers', ['ngSanitize', 'ngRoute']);
 
-  app.controller('archivesController', ['$http', '$location', '$routeParams', function($http, $location, $routeParams) {
-    var archive = this;
+  app.controller('archivesController', ['$scope','$http', '$location', '$routeParams', function($scope, $http, $location, $routeParams) {
 
-    archive.page = ($routeParams.page) ? $routeParams.page : 1;
+    $scope.page = ($routeParams.page) ? $routeParams.page : 1;
 
     this.getPosts = function(page) {
-      archive.loading = true;
-      $http.get('/cms/api/get_posts/?page=' + archive.page).success( function(data) {
-        archive.posts = data.posts;
-        archive.loading = false;
-        archive.totalPages = data.pages;
-      });
-    }
+      $scope.loading = true;
+      $http.get('/cms/api/get_posts/?page=' + $scope.page)
+        .success( function(data, status, headers, config) {
+          $scope.posts = data.posts;
+          $scope.loading = false;
+          $scope.totalPages = data.pages;
+        }
+      );
+    };
 
     this.nextPage = function() {
-      archive.page++;
-      $location.path('/blog/page/' + archive.page);
-      this.getPosts(archive.page);
-    }
+      $scope.page++;
+      $location.path('/blog/page/' + $scope.page);
+      this.getPosts($scope.page);
+    };
 
     this.prevPage = function() {
-      archive.page--;
-      $location.path('/blog/page/' + archive.page);
-      this.getPosts(archive.page);
-    }
+      $scope.page--;
+      $location.path('/blog/page/' + $scope.page);
+      this.getPosts($scope.page);
+    };
 
-    this.getPosts(archive.page);
+    this.getPosts($scope.page);
 
   }]);
 

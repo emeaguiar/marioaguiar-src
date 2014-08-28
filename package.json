@@ -1,0 +1,22 @@
+{
+  "name": "marioaguiar-portfolio",
+  "version": "0.0.1",
+  "description": "Source code for marioaguiar.net",
+  "main": "index.html",
+  "repository": {
+    "type": "git",
+    "url": "marioagu@marioaguiar.net/git/marioaguiar.git"
+  },
+  "author": "Mario Aguiar",
+  "devDependencies": {
+    "grunt": "~0.4.5",
+    "grunt-contrib-watch": "~0.6.1",
+    "grunt-contrib-sass": "~0.8.1",
+    "matchdep": "~0.3.0",
+    "grunt-contrib-jshint": "~0.10.0",
+    "grunt-yui-compressor": "~0.3.3",
+    "grunt-contrib-concat": "~0.5.0",
+    "bootstrap-sass": "~3.2.0",
+    "grunt-processhtml": "~0.3.3"
+  }
+}

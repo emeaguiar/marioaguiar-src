@@ -1,0 +1,59 @@
+#welcome
+  margin-top: 8%
+  padding-bottom: 130px
+  text-align: center
+  p
+    font-size: 40px
+    strong
+      background: $textColor
+      border-radius: 10px
+      color: $bodyBackground
+      font-weight: 500
+      padding: 5px 15px
+
+#details
+  background: $detailsBackground
+  padding: 50px 0
+  article
+    +make-md-column(4)
+  .photo
+    @extend article
+
+#contact
+  background: $contactBackground
+  padding: 50px 0
+  .social
+    +make-md-column(10)
+    +make-md-column-offset(1)
+    .envelope
+      +make-md-column(4)
+    ul
+      @media only screen and (min-width: 602px)
+        width: $colWidth * 6
+      +center-block
+  #message
+    background: lighten($detailsBackground, 10%)
+    border: 1px solid darken($contactBackground, 10%)
+    color: $textColor
+    height: 200px
+    margin: 5px 0 10px
+  input
+    @extend #message
+    font-size: 20px
+    height: auto
+    margin: 5px
+    padding: 3px
+  #send
+    color: $buttonColor
+    font-size: 25px
+    margin-bottom: 20px
+    text-transform: uppercase
+  form
+    fieldset
+      +make-md-column(8)
+      .input-field
+        +make-md-column(6)
+      .message-field
+        +make-md-column(12)
+    aside
+      +make-md-column(4)

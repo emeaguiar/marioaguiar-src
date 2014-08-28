@@ -1,0 +1,28 @@
+// Archive
+#archive
+  background: $detailsBackground
+  & > .content
+    +make-md-column(6)
+    +make-md-column-offset(3)
+  button
+    color: $buttonColor
+    margin-bottom: 20px
+  .post
+    border-bottom: 3px dotted
+    padding: 30px
+    &:last-of-type
+      border: 0
+    h2
+      font-size: 1.3em
+      text-transform: uppercase
+    time
+      font-size: .9em
+      text-transform: uppercase
+    .metadata
+      +make-md-column(4)
+      text-align: right
+      @media only screen and ( max-width: $container-md )
+        text-align: left
+    .content
+      +make-md-column(8)
+      margin-top: 18px

@@ -36,14 +36,14 @@
       postId: "=postId",
       controller: "commentFormCtrl",
       controllerAs: "commentForm"
-    }
+    };
   });
 
   app.directive("sectionFooter", function() {
     return {
       restrict: "E",
       templateUrl: '/views/footer.html'
-    }
+    };
   });
 
   app.directive("welcomeMessage", ["matchmedia", function(matchmedia) {
@@ -71,7 +71,7 @@
       restrict: "A",
       controller: "contactFormCtrl",
       controllerAs: "form"
-    }
+    };
   });
 
   app.filter( 'wpDate', ['$filter', function($filter) {
@@ -82,7 +82,7 @@
 
         return $filter('date')(timestamp, format);
       }
-    }
+    };
   }]);
 
   app.filter( 'mainTitle', function() {
@@ -91,7 +91,7 @@
         return 'Portfolio of Wordpress, Drupal, and Front End Developer Mario Aguiar';
       else
         return title + ' - Wordpress, Drupal, and Front End Developer Mario Aguiar';
-    }
+    };
   } );
 
   app.run(['$rootScope', 'analytics', function($rootScope) {

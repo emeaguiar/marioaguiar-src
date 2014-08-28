@@ -1,0 +1,76 @@
+// Home
+body
+  background: $bodyBackground
+  color: $textColor
+  font-family: $font
+  a
+    color: $linkColor
+    &:hover, &:active
+      color: $contactBackground
+      text-decoration: none
+
+code
+  background-color: $contactBackground
+  color: $textColor
+
+pre
+  @extend code
+  border: 0
+
+.container
+  +container-fixed()
+  @media (min-width: $screen-sm-min)
+    width: $container-sm
+  @media (min-width: $screen-md-min)
+    width: $container-md
+  @media (min-width: $screen-lg-min)
+    width: $container-lg
+
+.row
+  +make-row()
+
+.message-success
+  background-color: #dff0d8
+  color: #3c763d
+  padding: 15px
+
+.message-error
+  @extend .message-success
+  color: #a94442
+  background-color: #f2dede
+
+.loader
+  margin: 15px
+
+#navigation
+  +make-md-column(8)
+  +make-md-column-offset(2)
+
+hr.separator
+  border-top: 10px solid $separatorColor
+  margin: 0
+
+input.ng-invalid.ng-dirty
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset, 0 0 8px $invalidText
+input.ng-valid.ng-dirty
+  outline-color: #01543A !important
+
+// Footer
+#footer
+  background: $contactBackground
+  padding-bottom: 15px
+  a
+    border-bottom: 1px solid
+    &:hover
+      border: none
+      color: $textColor
+  h2
+    text-transform: uppercase
+  .about
+    +make-md-column(6)
+    +make-md-column-offset(1)
+    .avatar
+      margin-right: 5px
+      padding-right: 5px
+  .contact
+    +make-md-column(4)
