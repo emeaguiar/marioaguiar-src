@@ -6,7 +6,7 @@
           <div class="loader text-center" ng-show="loading">
             <img src="/assets/images/loader.gif" alt="">
           </div>
-          <div ng-repeat="post in posts" class="post row" id="post-{{ post.id }}" ng-hide="loading">
+          <div ng-repeat="post in posts" class="post row" id="post-{{ post.ID }}" ng-hide="loading">
             <div class="metadata">
               <h2><a href="/blog/{{ post.slug }}">{{ post.title }}</a></h2>
               <time>{{ post.date | wpDate : 'MMMM dd, yyyy' }}</time>

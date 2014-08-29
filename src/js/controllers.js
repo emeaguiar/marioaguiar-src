@@ -7,11 +7,11 @@
 
     this.getPosts = function(page) {
       $scope.loading = true;
-      $http.get('/cms/api/get_posts/?page=' + $scope.page)
+      $http.get('/cms/wp-json/posts/?page=' + $scope.page)
         .success( function(data, status, headers, config) {
-          $scope.posts = data.posts;
+          $scope.posts = data;
           $scope.loading = false;
-          $scope.totalPages = data.pages;
+          $scope.totalPages = headers('X-WP-TotalPages');
         }
       );
     };
@@ -35,9 +35,9 @@
   app.controller('postController', ['$scope', '$http', '$routeParams', function($scope, $http, $routeParams) {
     var slug = $routeParams.title;
     $scope.loading = true;
-    $http.get('/cms/api/get_post/?slug=' + slug).success( function(data) {
-      $scope.page.setTitle(data.post.title);
-      $scope.post = data.post;
+    $http.get('/cms/wp-json/posts?filter[name]=' + slug ).success( function(data) {
+      $scope.page.setTitle(data[0].title);
+      $scope.posts = data;
       $scope.loading = false;
     });
   }]);
